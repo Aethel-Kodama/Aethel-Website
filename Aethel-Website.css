@@ -61,14 +61,14 @@ ul {
 }
 
 .base-image{
-    width: 100vh;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    
 }
+
 footer {
     padding:10px 0px 10px 0px;
     background-color: #000000;
