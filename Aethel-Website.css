@@ -11,10 +11,14 @@ header {
     height: 50px;
     background-color: #ffffff;
     z-index: 1;
+    position:sticky;
+    top:0px;
+    padding-bottom: 10px;
 }
 div {
     width: 100%;
-    top: 50px;
+    position: sticky;
+    top: 60px;
     z-index: 1;
     background-color: #ffffff;
 }
@@ -57,7 +61,7 @@ ul {
 }
 
 .base-image{
-    height: 100vh;
+    width: 100vh;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -74,11 +78,7 @@ footer {
     width: 100%;
     margin:0px 0px 0px 0px;
 }
-.topmenu {
-    position: sticky;
-    z-index: 1;
-    padding: 1.5px 0px 1.5px 0px;
-}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
