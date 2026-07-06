@@ -50,7 +50,6 @@ div .container {
     width: 100%;
     position:relative;
     left: 50%;
-    transform: translateX(-50%);
 }
 p {
     margin: 0px 30px;
@@ -64,9 +63,9 @@ ul {
     width: 50%;
     height: auto;
     display: block;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-right: auto;
-    
+
 }
 
 footer {
@@ -108,5 +107,5 @@ footer {
 a {
     text-decoration: none;
     color: black;
-    padding-right:100%
+    
 }
