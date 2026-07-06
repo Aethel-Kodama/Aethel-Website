@@ -4,6 +4,7 @@ html,body {
     padding: 0px;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 header {
     top: 0%;
